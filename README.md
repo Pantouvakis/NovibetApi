@@ -13,9 +13,9 @@ GET /api/report/country-report
 Returns a report of IP addresses per country. Query parameter countryCodes can be used to filter results.
 
 EXAMPLES
-GET http://localhost:5000/api/ipinfo/8.8.8.8
-GET http://localhost:5000/api/report/country-report
-GET http://localhost:5000/api/report/country-report?countryCodes=US&countryCodes=CA
+    - **GET** http://localhost:5000/api/ipinfo/8.8.8.8
+    - **GET** http://localhost:5000/api/report/country-report
+    - **GET** http://localhost:5000/api/report/country-report?countryCodes=US&countryCodes=CA
 
 IP Information REST API Overview This project is a RESTful API built using .NET Core, designed to provide information about IP addresses, including country name, two-letter code, and three-letter code. The API interacts with an SQL database to manage and store IP information, utilizing caching for performance optimization. The project also includes functionality for periodic updates of IP information and reporting capabilities.
 
