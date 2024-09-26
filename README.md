@@ -1,8 +1,9 @@
-Database createad with the Database Schema & Seed Data given: "ConnectionStrings": { "DefaultConnection": "Server=(localdb)\MSSQLLocalDB;Database=NOVIBET;Trusted_Connection=True;TrustServerCertificate=True;MultipleActiveResultSets=true" }
+Database createad with the Database Schema & Seed Data given:
 
+    "ConnectionStrings": { "DefaultConnection": "Server=(localdb)\MSSQLLocalDB;Database=NOVIBET;Trusted_Connection=True;TrustServerCertificate=True;MultipleActiveResultSets=true" }
 dotnet ef migrations add InitialCreate dotnet ef database update
 
-The application will start and listen on http://localhost:5000.
+The application will start and listen on http://localhost:5000
 
 API Endpoints
 GET /api/ipinfo/{ip}
